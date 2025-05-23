@@ -52,4 +52,4 @@ local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
   Translator = true; -- true/false
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/htcheats/Ht/refs/heads/main/HTCHEATSMODPROMEJU.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/htcheats/Ht/refs/heads/main/HTCHEATSMODPROMEJU.txt"))(Settings)
