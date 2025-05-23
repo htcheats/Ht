@@ -31,7 +31,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Scripts BloxFruits"})
-     local Tab2o = MakeTab({Name = "Scripts HT"})
      
 ------- BUTTON
     
@@ -44,12 +43,3 @@ local Settings = {
   Translator = true; -- true/false
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
-
-    AddButton(Tab2o, {
-     Name = "HT Cheats Mod Pro",
-    Callback = function()
-local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/htcheats/Ht/refs/heads/main/HTCHEATSMODPROMEJU.txt"))(Settings)
